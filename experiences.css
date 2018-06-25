@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html, body {
+    background-color: rgb(255, 233, 251);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+header {
+    background-image: url("img/plane-2909850.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center ;
+    align-items: center;
+
+}
+header h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 70px;
+    border-bottom: dotted 1px rgb(247, 215, 232);
+    transition: all 0.3s cubic-bezier(.5,.25.52,.7);
+    cursor: pointer;
+}
+header h1 i{
+    color: rgb(247, 215, 232);
+}
+header h1:hover{
+    color: rgb(247, 215, 232);
+}
+
+header h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-family: cursive, serif;
+    font-size: 40px;
+    transition: all 0.3s cubic-bezier(.5,.25.52, .7);
+    cursor: pointer
+}
+header h2:hover{
+    color: rgb(247, 215, 232);
+}
+
+nav{
+    background-color: #406289;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top : 0;
+    width : 100%;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-item{
+    height: 75px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(37, 65, 117);
+    font-family: 'Quicksand', sans-serif ;
+    background-color: rgb(255, 255, 255)
+    }
+    
+    .nav-item:hover{
+    background-color: rgb(37, 65, 117);
+    color:rgb(255, 233, 251);
+    }
+    
+    
+    .nav-item a, .nav-item a:visited{
+    color: rgb(255, 233, 251);
+    text-decoration: none;
+    }
+
+h3{
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 70px;
+    text-align: center;
+    border-style: solid;
+    color: rgb(37, 65, 117);
+    background-color: rgb(255, 233, 251);
+    cursor: default
+}
+
+h4{
+    padding: 10px;
+    margin: 150px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(37, 65, 117);
+    border-style: solid;
+    border: 5px, rgb(255, 255, 255);
+   
+}
+h4:hover{
+    color: rgb(247, 215, 232);
+    background-color: white;
+}
+
+
+footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+    height: 100px;
+    width: 100%;
+    }
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;    
+    
+}
+
+
+.logo {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 30px;
+    text-align: left;
+    margin: 5px;   
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(37, 65, 117);
+    font-family: 'Quicksand', sans-serif ;
+    flex-direction: column;
+}
+
+
+/** RESPONSIVE **/
+/* Mobile */
+@media screen and (max-width : 600px) {
+    section {
+        display: flex; /* or inline-flex */;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    section a {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (min-width : 600px) and (max-width : 900px) {
+    section {
+        display: flex; /* or inline-flex */;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center; 
+    }
+    section a {
+            height: 50%;
+            width: 50%;
+    }

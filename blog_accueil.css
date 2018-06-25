@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html, body {
+    background-color: rgb(255, 233, 251);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+header {
+    background-image: url("img/plane-2909850.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center ;
+    align-items: center;
+
+}
+header h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 70px;
+    border-bottom: dotted 1px rgb(247, 215, 232);
+    transition: all 0.3s cubic-bezier(.5,.25.52,.7);
+    cursor: pointer;
+}
+header h1 i{
+    color: rgb(247, 215, 232);
+}
+header h1:hover{
+    color: rgb(247, 215, 232);
+}
+
+h4{
+    padding: 20px;
+    margin: 150px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border: 15px, rgb(255, 255, 255);
+    color: rgb(255,255,255);
+   
+}
+h4:hover{
+    color: rgb(247, 215, 232);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: rgb(37, 65, 117);
+    margin: auto;
+    width: 100%;
+    margin-bottom: -56px;
+}
+
+#menu a:last-child {
+    margin-bottom: 0;
+}
+
+#menu{
+    background-image: url("img/plane-2909850.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px
+
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    margin: 0;
+    flex: 1;
+    text-align: justify;
+
+}
+
+
+body {
+    margin: 0;
+    height: cover;
+    font-family: Roboto-light;
+}
+
+
+
+h2{
+    height: 100px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(37, 65, 117);
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 70px;
+
+}
+
+p{
+
+    height: 50px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(37, 65, 117);
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 20px;
+
+
+}
+
+footer {
+    background-color: rgb(255, 233, 251);
+    height: 500px;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around ;
+    align-items: center;
+    
+    }
+
+.social {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+    }
